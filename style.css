@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.main-container{
+   
+    width: 600px;
+    height: 223px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-img{
+    width: 600px;
+    /* height: 200px; */
+}
+.content{
+    
+    position: absolute;
+    top:30px;
+    left: 100px;
+    text-align: center;
+    /* width: 200px; */
+}
+.zomato-logo{
+    width: 150px;
+
+}
+
+.caption{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin:0px
+}
+.search-bar{
+    display: flex;
+    width:420px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.location-dropdown{
+    
+    font-size: 10px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.search-bar-box{
+    width: 400px;
+    border: none;
+    font-size: 10px;
+    padding:4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-bar-box:focus{
+    outline: none;
+}
